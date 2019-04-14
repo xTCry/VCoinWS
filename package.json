@@ -1,0 +1,34 @@
+{
+  "name": "vcoinws",
+  "version": "0.0.5",
+  "description": "Module for working with VK Coin through WebSocket",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xTCry/VCoinWS.git"
+  },
+  "keywords": [
+    "vk",
+    "vcoin",
+    "coin"
+  ],
+  "author": "xTCry (Vladislav Khr)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xTCry/VCoinWS/issues"
+  },
+  "homepage": "https://github.com/xTCry/VCoinWS#readme",
+  "dependencies": {
+    "random-useragent": "^0.3.1",
+    "safe-eval": "^0.4.1",
+    "socks-proxy-agent": "^4.0.2",
+    "window": "^4.2.6",
+    "ws": "^6.2.1"
+  }
+}
